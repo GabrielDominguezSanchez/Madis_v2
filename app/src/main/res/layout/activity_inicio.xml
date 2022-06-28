@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hola"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Juan Lopez"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="30dp"></TextView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/mano"></TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temas"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"></TextView>
+
+        <TextView
+            android:id="@+id/bt_BD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/ic_rectangle"
+            android:backgroundTint="#023E8C"
+            android:gravity="center"
+            android:text="Conversion de binario a decimal"
+            android:textColor="@color/white"
+            android:textSize="17dp"></TextView>
+        <TextView
+            android:id="@+id/bt_DB"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_rectangle"
+            android:backgroundTint="#048ABF"
+            android:text="Conversion de decimal a binario"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:id="@+id/bt_TV"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_rectangle"
+            android:backgroundTint="#F2B703"
+            android:text="Tablas de verdad"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="17dp"></TextView>
+
+        <TextView
+            android:id="@+id/bt_OCC"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_rectangle"
+            android:backgroundTint="#D96705"
+            android:text="Operaciones con conjuntos"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="17dp"></TextView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

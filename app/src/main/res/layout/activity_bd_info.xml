@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BD_info_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#023E8C">
+            <TextView
+                android:id="@+id/bt_Salir_BD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_retroceso"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:backgroundTint="@color/white"></TextView>
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="#023E8C"
+                    android:text="Conversión de binario a decimal"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white">
+                </TextView>
+                <LinearLayout
+                    android:padding="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="El 0 y el 1"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="El sistema binario se conforma de valores de 0 y 1 \n\nEl número en binario “1001” en decimal tiene un valor de “9” pero…\n\n¿Cómo puedo convertirlo?"
+                        android:textColor="@color/black"
+                        android:textSize="17dp">
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="De derecha a izquierda!"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <ImageView
+                        android:padding="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img1"></ImageView>
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tomemos en cuenta esa tabla de 8 posiciones en donde cada posición tiene un valor diferente. \n\nEstos son los valores."
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:justificationMode="inter_word">
+                    </TextView>
+
+                    <ImageView
+                        android:padding="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/tabla_bd_2"></ImageView>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ejemplo"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Retomando el ejemplo anterior, 1001, lo único que se debe hacer es acomodarlo en la tabla."
+                        android:textColor="@color/black"
+                        android:textSize="17dp">
+                    </TextView>
+                    <ImageView
+                        android:padding="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/tabla_bd_3"></ImageView>
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ahora lo único que se debe hacer es sumar los valores en donde existe un 1."
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:justificationMode="inter_word">
+                    </TextView>
+                    <ImageView
+                        android:padding="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/tabla_bd_4"></ImageView>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Que sería 8 + 1 = 9"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="¡Así de sencillo se transforma de binaro a decimal!."
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:justificationMode="inter_word">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/bt_Ejercicios_BD"
+                        android:layout_marginTop="80dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_btn"
+                        android:text="IR A LA PRÁCTICA"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/white"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

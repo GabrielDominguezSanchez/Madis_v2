@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EjerciciosActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/bt_Exit_Ejercicios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_exit">
+            </TextView>
+
+            <TextView
+                android:layout_marginLeft="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2:48"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="23dp"
+                android:textColor="@color/black"></TextView>
+
+            <TextView
+                android:id="@+id/vida1"
+                android:layout_marginLeft="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_hearth">
+            </TextView>
+            <TextView
+                android:id="@+id/vida2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_hearth">
+            </TextView>
+            <TextView
+                android:id="@+id/vida3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_hearth">
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ejercicio_Pregunta"
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:text="Convierte el siguiente numero a decimal"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:id="@+id/ejercicio_Pregunta_Complemento"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:text="10001110"
+            android:textColor="@color/black"
+            android:gravity="center"></TextView>
+
+
+        <TextView
+            android:id="@+id/ejercicio_Respuesta1"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_respuesta1"
+            android:text="90"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:id="@+id/ejercicio_Respuesta2"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_respuesta2"
+            android:text="12"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:id="@+id/ejercicio_Respuesta3"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_respuesta1"
+            android:text="131"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:id="@+id/ejercicio_Siguiente"
+            android:layout_marginTop="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_btn"
+            android:text="Continuar"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"></TextView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

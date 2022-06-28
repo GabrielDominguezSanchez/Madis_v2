@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OCC_info_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#023E8C">
+            <TextView
+                android:id="@+id/bt_Salir_OCC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_retroceso"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:backgroundTint="@color/white"></TextView>
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="#023E8C"
+                    android:text="Operaciones con conjuntos"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white">
+                </TextView>
+                <LinearLayout
+                    android:padding="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Es un grupo de elementos (personas, números, cosas, etc.). \n\nExisten formas de representarlos. \n\nA={cuadrado, pentagono, hexagono, triangulo, trapecio}."
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:justificationMode="inter_word">
+                    </TextView>
+                    <ImageView
+                        android:padding="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/occ_1"></ImageView>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Intersección"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="La intersección son todos los elementos compartidos entre dos o más conjuntos."
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:justificationMode="inter_word">
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A ∩ B"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <ImageView
+                        android:padding="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/occ_2"></ImageView>
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Unión"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="La unión es la suma de todos los elementos compartidos entre dos o más conjuntos."
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:justificationMode="inter_word">
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="A ∪ B ∪ C"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <ImageView
+                        android:padding="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/occ_3"></ImageView>
+
+
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Diferencia"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="La diferencia son los elementos restantes de un conjunto, los elementos que no hacen intersección con los demás conjuntos."
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:justificationMode="inter_word">
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="B - (A ∪ C)"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="bold">
+                    </TextView>
+                    <ImageView
+                        android:padding="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/occ_4"></ImageView>
+
+
+
+                    <TextView
+                        android:id="@+id/bt_Ejercicios_OCC"
+                        android:layout_marginTop="80dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_btn"
+                        android:text="IR A LA PRÁCTICA"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/white"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
